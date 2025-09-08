@@ -2,10 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ImportDemo from '../views/import-demo/ImportDemo.vue'
 import ImportDemo2 from '../views/import-demo/ImportDemo2.vue'
+import echartsRoutes from "@/router/echarts/echarts-routes";
+import componentRoutes from "@/router/echarts/component-routes.ts";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    ...echartsRoutes,
+    ...componentRoutes,
     {
       path: '/',
       name: 'home',

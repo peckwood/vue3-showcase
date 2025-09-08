@@ -10,6 +10,10 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  server: {
+    port: 5174, // 👈 change this to whatever port you want
+    // open: true, // optional: auto open browser
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
