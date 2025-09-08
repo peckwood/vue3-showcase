@@ -12,6 +12,7 @@ function f2_2(){
 }
 
 let v1_2 = 'hi, I am let v1_2'
+v1_2 = 'now, I am let v1_2~~~'
 
 const v2_2 = 'hi I am const v2_2'
 
