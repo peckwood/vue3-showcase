@@ -8,7 +8,7 @@ function f2(){
   return 'f2';
 }
 
-// if you won reassign v1, use const is preferred
+// if you wont reassign v1, use const is preferred
 let v1 = 'hi, I am let v1'
 
 const v2 = 'hi I am const v2'
