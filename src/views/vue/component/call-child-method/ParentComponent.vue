@@ -19,7 +19,9 @@ function callChild(){
 <div>
   <p>parent</p>
   <button @click="callChild">Call child</button>
-  <child-component ref="childRef"></child-component>
+  <child-component
+    ref="childRef"
+  ></child-component>
   <h3>parent</h3>
   <ol>
     <li>import ref from vue</li>
